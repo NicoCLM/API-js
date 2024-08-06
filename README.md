@@ -13,15 +13,26 @@ El puerto del proyecto es http://localhost:8080
 ----------------------------------------------------------------------
 Es necesario tener instalado los siguientes elementos:
 
--npm install nodemon --save-dev
--npm install express
--npm install mysql
--npm install express-myconnection
--npm install ejs
+nodemon
+>npm install nodemon --save-dev
+
+Express
+>npm install express
+
+MySQL
+>npm install mysql
+
+Express-myconnection
+>npm install express-myconnection
+
+EJS
+>npm install ejs
 ----------------------------------------------------------------------
 
 
 Herramientas utilizadas:
 
-Laragon, alternativa se puede utilizar XAMP
-[https://laragon.org/download/]
+[Laragon](https://laragon.org/download/)
+
+Alternativa:
+[XAMPP](https://www.apachefriends.org/es/download.html)

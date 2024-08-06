@@ -6,7 +6,7 @@ de sus módulos componentes.
 
 Para ejecutar el proyecto
 
--npm run start
+>npm run start
 
 El puerto del proyecto es http://localhost:8080
 

@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/styles.css'>
     <title>Usuarios</title>
 </head>
+
 <body>
-    <h1>Lista de Usuarios</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-            </tr>
-        </thead>
-        <tbody>
-            <% usuarios.forEach(usuario => { %>
+    <header class="startPage">
+        <h1>Lista de Usuarios</h1>
+    </header>
+    <div class="dataList" style="overflow-x:auto;">
+        <table>
+            <thead>
                 <tr>
-                    <td><%= usuario.id_usuario %></td>
-                    <td><%= usuario.nombre %></td>
-                    <td><%= usuario.email %></td>
-                    <td><%= usuario.clave %></td>
-                    <td><%= usuario.ciudad %></td>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Clave</th>
+                    <th>Ciudad</th>
                 </tr>
-            <% }); %>
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                <% usuarios.forEach(usuario=> { %>
+                    <tr>
+                        <td>
+                            <%= usuario.id_usuario %>
+                        </td>
+                        <td>
+                            <%= usuario.nombre %>
+                        </td>
+                        <td>
+                            <%= usuario.email %>
+                        </td>
+                        <td>
+                            <%= usuario.clave %>
+                        </td>
+                        <td>
+                            <%= usuario.ciudad %>
+                        </td>
+                    </tr>
+                    <% }); %>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <a href="/">
+            <button>Inicio</button>
+        </a>
+    </div>
+    <footer class="endPage">
+        <h4>GA8-220501096-AA1-EV01 SL NicolasCamachoLesmes 2721538</h4>
+    </footer>
 </body>
+
 </html>

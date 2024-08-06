@@ -1,7 +1,7 @@
 const express = require('express')
 const routes = express.Router()
 
-//Rutas
+//Rutas de la API
 routes.get('/usuarios',(req, res) =>{
     //Conexion
     req.getConnection((err, conn) =>{

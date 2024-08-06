@@ -15,15 +15,19 @@ const dbConf = {
 }
 
 app.set('view engine', 'ejs')
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.set('port', process.env.PORT || 8080)
 app.use(mycon(mysql,dbConf, 'single'))
 
+
+//Rutas de la API
 app.get('/', (req,res) => {
     res.render('index', {error: false})
 })
-//Rutas
-app.use('/', routes)
+
+app.use('/api', routes)
 
 //Ejecucion del servidor
 app.listen(app.get('port'), () => {

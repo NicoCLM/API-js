@@ -13,11 +13,11 @@ El puerto del proyecto es http://localhost:8080
 ----------------------------------------------------------------------
 Es necesario tener instalado los siguientes elementos:
 
-npm install nodemon --save-dev
-npm install express
-npm install mysql
-npm install express-myconnection
-npm install ejs
+-npm install nodemon --save-dev
+-npm install express
+-npm install mysql
+-npm install express-myconnection
+-npm install ejs
 ----------------------------------------------------------------------
 
 

@@ -2,6 +2,29 @@ const express = require('express')
 const routes = express.Router()
 
 //Rutas de la API
+
+//Información en formato JSON
+routes.get('/usuarios.json',(req, res) =>{
+    //Conexion
+    req.getConnection((err, conn) =>{
+        if(err){
+            return res.send(err)
+        }
+        else{  
+            conn.query('SELECT * FROM usuario', (err, rows) =>{
+                if(err){
+                    return res.send(err)
+                }
+                else{
+                    res.json(rows)
+                }
+            })
+        }
+
+    })
+})
+
+//Información mostrada en la pagina
 routes.get('/usuarios',(req, res) =>{
     //Conexion
     req.getConnection((err, conn) =>{

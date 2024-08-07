@@ -10,7 +10,7 @@ Para ejecutar el proyecto
 
 El puerto del proyecto es http://localhost:8080
 ----------------------------------------------------------------------
-##Capturas
+## Capturas
 ![image width="300" height="300"](https://github.com/user-attachments/assets/009aa868-01aa-4a56-99cf-874962fd9977)
 ![image width="300" height="300"](https://github.com/user-attachments/assets/ffc478e8-31fb-4b2d-9d23-6a67ab87dff8)
 ![image width="300" height="300"](https://github.com/user-attachments/assets/6764364e-217a-4f23-97c1-8af98361059b)
@@ -18,6 +18,8 @@ El puerto del proyecto es http://localhost:8080
 
 
 ----------------------------------------------------------------------
+## Notas:
+
 Para el funcionamiento es recomendable tener una base de datos llamada 'tests' y una tabla 'usuario' con los campos 'id_usuario','nombre','email','clave' y 'ciudad'
 Se utiliza MySQL en el puerto 3306 
 

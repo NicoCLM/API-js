@@ -43,9 +43,7 @@ Express-myconnection
 EJS
 >npm install ejs
 ----------------------------------------------------------------------
-
-
-Herramientas utilizadas:
+## Herramientas utilizadas:
 
 [Laragon](https://laragon.org/download/)
 

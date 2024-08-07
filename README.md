@@ -10,6 +10,10 @@ Para ejecutar el proyecto
 
 El puerto del proyecto es http://localhost:8080
 ----------------------------------------------------------------------
+## Estructura del proyecto
+![image](https://github.com/user-attachments/assets/4e1bce50-13dd-4926-b607-60807088f2ea)
+
+----------------------------------------------------------------------
 ## Capturas
 ![image width="300" height="300"](https://github.com/user-attachments/assets/009aa868-01aa-4a56-99cf-874962fd9977)
 ![image width="300" height="300"](https://github.com/user-attachments/assets/ffc478e8-31fb-4b2d-9d23-6a67ab87dff8)

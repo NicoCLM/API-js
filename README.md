@@ -11,6 +11,11 @@ Para ejecutar el proyecto
 El puerto del proyecto es http://localhost:8080
 
 ----------------------------------------------------------------------
+Para el funcionamiento es recomendable tener una base de datos llamada 'tests' y una tabla 'usuario' con los campos 'id_usuario','nombre','email','clave' y 'ciudad'
+
+Se adjunta el script de la base de datos con 30 datos de prueba.
+
+
 Es necesario tener instalado los siguientes elementos:
 
 nodemon

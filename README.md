@@ -47,8 +47,9 @@ EJS
 >npm install ejs
 ----------------------------------------------------------------------
 ## Herramientas utilizadas:
-
+[POSTMAN](https://www.postman.com/downloads/)
 [Laragon](https://laragon.org/download/)
 
-Alternativa:
+Alternativa a Laragon:
 [XAMPP](https://www.apachefriends.org/es/download.html)
+

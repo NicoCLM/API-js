@@ -3,7 +3,7 @@ const routes = express.Router()
 
 //Rutas de la API
 
-//Información en formato JSON
+//Datos en formato JSON.
 routes.get('/usuarios.json',(req, res) =>{
     //Conexion
     req.getConnection((err, conn) =>{
@@ -24,7 +24,7 @@ routes.get('/usuarios.json',(req, res) =>{
     })
 })
 
-//Información mostrada en la pagina
+//Mostrar el listado por la pagina web
 routes.get('/usuarios',(req, res) =>{
     //Conexion
     req.getConnection((err, conn) =>{
